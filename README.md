@@ -1,11 +1,5 @@
 # jekyll-search
 Simple Jekyll search using  VUEJS and LUNRJS
----
-layout: post
-date:   2017-02-06 14:37:00 +0000
-title: Search box in jekyll with vuejs and lunrjs
-category: jekyll update
----
 
 Javascript bundles:
 - assets/js/lunr.min.js (from http://lunrjs.com/)
