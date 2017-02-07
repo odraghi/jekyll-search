@@ -12,9 +12,9 @@ Magics files:
 Ready to go with docker:
 ```
 git clone https://github.com/odraghi/jekyll-search.git
-sudo docker run --rm --label jekyll \
+sudo docker run --label jekyll -it \
    --volume=$PWD/jekyll-search:/srv/jekyll \
-   -it -p 4000:4000 jekyll/jekyll \
+   --publish 4000:4000 jekyll/jekyll:latest \
    jekyll serve --watch --force_polling
 ```
 
