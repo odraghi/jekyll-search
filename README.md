@@ -9,7 +9,7 @@ Magics files:
 - _includes/app.html
 - _layouts/default.html
 
-Ready to go witch docker:
+Ready to go with docker:
 ```
 git clone https://github.com/odraghi/jekyll-search.git
 sudo docker run --rm --label jekyll --volume=$PWD/jekyll-search:/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll serve --watch --force_polling
