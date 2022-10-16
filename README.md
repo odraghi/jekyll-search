@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/odraghi/jekyll-search)
+
 # jekyll-search
 Simple Jekyll search using  VUEJS and LUNRJS
 - assets/js/lunr.min.js (from http://lunrjs.com/)
